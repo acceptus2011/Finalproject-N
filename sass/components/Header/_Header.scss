@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container1 {
+.head-nav {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -13,14 +8,16 @@
     align-items: center;
 }
 
-.container2 {
+.head-ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
-header > div {
-    display: flex;
-    flex-direction: row;
-    padding: 10vw 20vw;
+
+.health {
+    color: #1a1a1a;
+}
+
+.food {
+    color: #8e2b2b;
 }
