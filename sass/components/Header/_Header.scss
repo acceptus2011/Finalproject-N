@@ -1,11 +1,6 @@
 .head-nav {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 5vw;
-    right: 20vw;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    margin: 5vw;
 }
 
 .head-ul {
