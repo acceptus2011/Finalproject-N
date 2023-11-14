@@ -1,18 +1,25 @@
-.head-nav {
+body {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    padding: 2vw;
+    font-family: "Work Sans", sans-serif;
+}
+
+head-nav {
     display: grid;
     margin: 5vw;
 }
 
-.head-ul {
+head-ul {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
-.health {
+health {
     color: #1a1a1a;
 }
 
-.food {
+food {
     color: #8e2b2b;
 }
